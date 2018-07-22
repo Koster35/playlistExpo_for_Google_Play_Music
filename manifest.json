@@ -1,0 +1,10 @@
+{
+	"author": "Maxwell L Koster",
+	"name": "GPM Playlist Exporter",
+	"version": "0.1",
+	"description": "Google Chrome extension that exports a Google Play Music playlist to a .csv file.",
+	"browser_action": {
+		"default_popup": "popup.html"
+		},
+	"manifest_version": 2
+}
