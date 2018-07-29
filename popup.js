@@ -1,3 +1,7 @@
-$("popup-button").click(function () {	
-	 chrome.tabs.executeScript(null, {file: "content_script.js"});
-});
+function execContentScript() {
+	  chrome.tabs.executeScript({
+	    file: 'content_script.js'
+	  }); 
+	}
+
+document.getElementById('popup_button').addEventListener('click', execContentScript);

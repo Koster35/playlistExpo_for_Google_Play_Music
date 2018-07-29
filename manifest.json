@@ -3,8 +3,15 @@
 	"name": "GPM Playlist Exporter",
 	"version": "0.1",
 	"description": "Google Chrome extension that exports a Google Play Music playlist to a .csv file.",
+	"permissions": [
+		"tabs", "<all_urls>"
+		],
 	"browser_action": {
 		"default_popup": "popup.html"
 		},
+  "content_scripts":[{
+    "matches": ["http://play.google.com/music/*","https://play.google.com/music/*"],
+      "js": ["jquery-3.3.1.min.js"]
+  }],
 	"manifest_version": 2
 }
