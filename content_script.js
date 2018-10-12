@@ -1,6 +1,8 @@
 /*
-@title GPM Playlist Exporter
+@app playlistExpo for Google Play Music&trade;
 @author Maxwell L Koster
+
+Main app functionality.
 */
 
 // Maps extracted rating integers to English strings.

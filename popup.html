@@ -1,16 +1,25 @@
+<!--
+@app playlistExpo for Google Play Music&trade;
+@author Maxwell L Koster
+
+Pop-up window for application.
+-->
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      button {
-        height: 30px;
-        width: 30px;
-        outline: none;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script src="jquery-3.3.1.min.js"></script>
   </head>
   <body>
-    <button id="popup_button"></button>
+    <div id="title">
+      <span><b>PlaylistExpo for Google Play Music&trade;</b></span>
+    </div>
+    <div id="subtitle">
+      <span>Download Playlist<span>
+    </div>
+    <button id="popup_button">
+      <img src="img\arrow.svg" alt="Arrow">
+    </button>
     <script type="text/javascript" src="popup.js"></script>
   </body>
 </html>

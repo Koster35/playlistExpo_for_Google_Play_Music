@@ -1,6 +1,8 @@
 /*
-@title GPM Playlist Exporter
+@app playlistExpo for Google Play Music&trade;
 @author Maxwell L Koster
+
+JavaScript for popup.html.
 */
 function execContentScript() {
 	  chrome.tabs.executeScript({
@@ -8,4 +10,4 @@ function execContentScript() {
 	  }); 
 	}
 
-document.getElementById('popup_button').addEventListener('click', execContentScript);
+$("#popup_button").click(execContentScript);
