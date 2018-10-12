@@ -1,0 +1,56 @@
+/*
+@app playlistExpo for Google Play Music&trade;
+@author Maxwell L Koster
+
+CSS for popup.html.
+*/
+:root {
+  --color-primary-0: #4BEB56; /* Main Primary color */
+  --color-primary-1: #E4FDE5;
+  --color-primary-2: #89F390;
+  --color-primary-3: #12E520;
+  --color-primary-4: #00C40D;
+
+  --color-secondary-0: #47D3DA; /* Main Secondary color */
+  --color-secondary-1: #E2FAFB;
+  --color-secondary-2: #84E4E8;
+  --color-secondary-3: #12C7CF;
+  --color-secondary-4: #019096;
+}
+
+body {
+  font-family: Calibri, sans-serif;
+  width: 150px;
+  text-align: center;
+  border: 2px solid var(--color-secondary-3);
+  border-radius: 5px;
+  padding: 8px 14px 8px;
+  margin: 3px;
+}
+#title {
+  color: #0A0B0A;
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 125%;
+  margin-bottom: 10px;
+}
+#subtitle {
+  color: #3A3A3A;
+  font-size: 1.15em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+#popup_button {
+  background-color: var(--color-secondary-2);
+  border: 2px solid var(--color-secondary-3);
+  border-radius: 5px;
+  cursor: pointer;
+}
+#popup_button:hover {
+  background-color: var(--color-primary-2);
+  border: 2px solid var(--color-primary-4);
+}
+#popup_button > img {
+  width: 90px;
+  height: 56px;
+}

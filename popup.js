@@ -8,6 +8,6 @@ function execContentScript() {
 	  chrome.tabs.executeScript({
 	    file: 'content_script.js'
 	  }); 
-	}
+}
 
 $("#popup_button").click(execContentScript);
