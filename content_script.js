@@ -1,8 +1,8 @@
 /*
-@app playlistExpo for Google Play Music&trade;
+@app playlistExpo for Google Play Music™
 @author Maxwell L Koster
 
-Main app functionality.
+Main extension functionality.
 */
 
 // Maps extracted rating integers to English strings.

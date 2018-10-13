@@ -1,5 +1,5 @@
 /*
-@app playlistExpo for Google Play Music&trade;
+@app playlistExpo for Google Play Music™
 @author Maxwell L Koster
 
 JavaScript for popup.html.
@@ -10,4 +10,4 @@ function execContentScript() {
 	  }); 
 }
 
-$("#popup_button").click(execContentScript);
+$( document ).ready($("#popup_button").click(execContentScript));
