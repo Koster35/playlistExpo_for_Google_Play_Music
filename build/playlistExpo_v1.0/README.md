@@ -12,7 +12,7 @@ Install from the Chrome Web Store.
 3. In the pop-up window, click the download button.
 4. Save the newly created .csv file containing your playlist. 
 
-### Disclaimers, Licenses, and Attributions
+### Licenses and Attributions
 The "playlistExpo for Google Play Music" logo uses Raleway Font Family. See "SIL Open Font License.txt" for licensing information.
 
 "playlistExpo for Google Play Music" is neither created or endorsed by Google.
