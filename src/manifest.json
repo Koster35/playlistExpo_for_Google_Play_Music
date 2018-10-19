@@ -19,7 +19,8 @@
     	"js": ["jquery-3.3.1.slim.min.js"]
   	}],
   	"background": {
-    	"scripts": ["background.js"]
+    	"scripts": ["background.js"],
+    	"persistent": false
 	},
   	"icons": { 
   		"16": "img/playlistExpo_logo_16.png",
