@@ -6,7 +6,7 @@ JavaScript for popup.html.
 */
 function execContentScript() {
 	  chrome.tabs.executeScript({
-	    file: 'content_script.js'
+	    file: 'content.js'
 	  }); 
 }
 
