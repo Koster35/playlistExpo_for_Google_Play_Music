@@ -2,7 +2,7 @@
 	"author": "Maxwell L Koster",
 	"name": "playlistExpo for Google Play Music",
 	"short_name": "playlistExpo",
-	"version": "1.0",
+	"version": "1.1",
 	"description": "Google Chrome extension that exports a Google Play Music playlist to a .csv file.",
 	"permissions": [
 		"tabs", "https://play.google.com/music/*"
