@@ -1,6 +1,6 @@
 # playlistExpo for Google Play Music
 Author: Maxwell L Koster
-Version: 1.0
+Version: 1.2
 Description: a Google Chrome extension to export Google Play Music playlists to .csv files.
 
 ### Installation
